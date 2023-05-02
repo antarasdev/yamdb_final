@@ -1,10 +1,9 @@
-from django.core.validators import MinValueValidator, MaxValueValidator
-from django.db import models
-
 from datetime import datetime
 
-from users.models import User
+from django.core.validators import MaxValueValidator, MinValueValidator
+from django.db import models
 
+from users.models import User
 
 SCORE_CHOICES = [(i, str(i)) for i in range(1, 11)]
 
