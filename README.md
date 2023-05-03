@@ -1,6 +1,6 @@
 # Проект YaMDb
 
-![example workflow](https://github.com/GlebOlegovich/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![example workflow](https://github.com/babyshitt/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Описание
 ***YaMDB*** - это открытый API для отзывов, который позволяет пользователям ставить оценки и писать отзывы о произведениях искусства. Этот сервис предоставляет возможность получить доступ к множеству отзывов и оценок на различные категории произведений искусства, таких как фильмы, книги, музыка и многое другое.
