@@ -8,6 +8,8 @@ services:
     env_file:
       - ./.env
   web:
+    ports:
+      - "8084:80"
     image: babyshit/api_yamdb:v1
     restart: always
     volumes:
