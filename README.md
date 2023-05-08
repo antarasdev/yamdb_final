@@ -48,7 +48,7 @@ docker-compose up -d --build
 
 
 ```bash
-docker-compose exec web python manage.py makemigrations users
+docker-compose exec web python manage.py makemigrations users reviews
 docker-compose exec web python manage.py migrate
 
 Для создания суперюзера выполинте команду:
@@ -103,6 +103,8 @@ docker-compose exec web python manage.py loaddata fixtures.json
 - reviews: отзывы на произведения. Отзыв привязан к определённому произведению.
 - comments: комментарии к отзывам. Комментарий привязан к определённому отзыву.
 
+# Проект можно посмотреть по ссылке
+http://51.250.80.224/api/v1/
 
 ---
 # Авторы
