@@ -1,6 +1,6 @@
 FROM python:3.7-slim
 WORKDIR /app
 COPY requirements.txt /app
-COPY ./templates/redoc.yaml ./static/
+COPY ./static/
 RUN pip3 install -r /app/requirements.txt --no-cache-dir
 COPY ./../ /app
